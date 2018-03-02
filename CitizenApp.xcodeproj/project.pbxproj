@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08027BA82015820A0099A978 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08027BA72015820A0099A978 /* DashboardViewController.swift */; };
+		08027BAA201582180099A978 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08027BA9201582180099A978 /* MapViewController.swift */; };
+		08027BAC201582210099A978 /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08027BAB201582210099A978 /* ListingViewController.swift */; };
+		08027BAE201582320099A978 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08027BAD201582320099A978 /* BookViewController.swift */; };
+		08027BB1201582640099A978 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08027BB0201582640099A978 /* MoreViewController.swift */; };
+		08027BB3201582720099A978 /* MyBookingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08027BB2201582720099A978 /* MyBookingsViewController.swift */; };
+		08027BB52015827C0099A978 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08027BB42015827C0099A978 /* ProfileViewController.swift */; };
+		08027BB7201582890099A978 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08027BB6201582890099A978 /* EditProfileViewController.swift */; };
+		08027BBA2015A2690099A978 /* LotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08027BB92015A2690099A978 /* LotCollectionViewCell.swift */; };
+		08027BBC201627010099A978 /* LotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08027BBB201627010099A978 /* LotTableViewCell.swift */; };
+		08027BBE20162C810099A978 /* ParkingLotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08027BBD20162C810099A978 /* ParkingLotModel.swift */; };
+		08027BC1201DA96B0099A978 /* VehicleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08027BC0201DA96B0099A978 /* VehicleModel.swift */; };
+		08027BC6201EB1140099A978 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08027BC5201EB1140099A978 /* ConfirmationViewController.swift */; };
+		083C3C4F20218E2300AAEB02 /* VehicleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083C3C4E20218E2300AAEB02 /* VehicleTableViewCell.swift */; };
+		0855F1BB2022C3CC00FC3F33 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0855F1BA2022C3CC00FC3F33 /* AddEditViewController.swift */; };
+		085A0253202DAFE00068F339 /* SlabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0252202DAFE00068F339 /* SlabCollectionViewCell.swift */; };
+		085A0255202DC01B0068F339 /* ChangeVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0254202DC01B0068F339 /* ChangeVehicleViewController.swift */; };
+		085A0257202F36E70068F339 /* UserBookingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0256202F36E70068F339 /* UserBookingTableViewCell.swift */; };
+		087F8094200C7AFC00498BE7 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087F8093200C7AFC00498BE7 /* Login.storyboard */; };
+		087F8097200C7B6F00498BE7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087F8096200C7B6F00498BE7 /* BaseViewController.swift */; };
+		087F8099200C7C3800498BE7 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087F8098200C7C3800498BE7 /* UpdateProfileViewController.swift */; };
+		087F80BD200E3CDB00498BE7 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087F80BC200E3CDB00498BE7 /* OnboardViewController.swift */; };
+		087F80BF200E3D2900498BE7 /* OnboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087F80BE200E3D2900498BE7 /* OnboardCollectionViewCell.swift */; };
+		087F80C4200F16B200498BE7 /* Dashbaord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087F80C3200F16B200498BE7 /* Dashbaord.storyboard */; };
+		087F80C9200F1FD400498BE7 /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087F80C8200F1FD400498BE7 /* Tutorial.storyboard */; };
+		087F80CB200F215600498BE7 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087F80CA200F215600498BE7 /* TutorialViewController.swift */; };
+		087F80CE200F32E600498BE7 /* AnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087F80CD200F32E600498BE7 /* AnnotationViewController.swift */; };
+		088515382008D04400CFC5DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088515372008D04400CFC5DC /* AppDelegate.swift */; };
+		0885153A2008D04400CFC5DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088515392008D04400CFC5DC /* ViewController.swift */; };
+		0885153D2008D04400CFC5DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0885153B2008D04400CFC5DC /* Main.storyboard */; };
+		0885153F2008D04400CFC5DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0885153E2008D04400CFC5DC /* Assets.xcassets */; };
+		088515422008D04400CFC5DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088515402008D04400CFC5DC /* LaunchScreen.storyboard */; };
+		0885154A2008D0B000CFC5DC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 088515492008D0AF00CFC5DC /* Podfile */; };
+		08A8690D20138C10005BF051 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A8690C20138C10005BF051 /* DatabaseHelper.swift */; };
+		08A8691020139307005BF051 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A8690F20139307005BF051 /* UserModel.swift */; };
+		D1A2E6BDB3584E1D1A790CA4 /* Pods_CitizenApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13200F972DF1CFADF32A015 /* Pods_CitizenApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08027BA72015820A0099A978 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		08027BA9201582180099A978 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		08027BAB201582210099A978 /* ListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
+		08027BAD201582320099A978 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		08027BB0201582640099A978 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		08027BB2201582720099A978 /* MyBookingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingsViewController.swift; sourceTree = "<group>"; };
+		08027BB42015827C0099A978 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		08027BB6201582890099A978 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		08027BB92015A2690099A978 /* LotCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotCollectionViewCell.swift; sourceTree = "<group>"; };
+		08027BBB201627010099A978 /* LotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotTableViewCell.swift; sourceTree = "<group>"; };
+		08027BBD20162C810099A978 /* ParkingLotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotModel.swift; sourceTree = "<group>"; };
+		08027BC0201DA96B0099A978 /* VehicleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleModel.swift; sourceTree = "<group>"; };
+		08027BC5201EB1140099A978 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
+		083C3C4E20218E2300AAEB02 /* VehicleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTableViewCell.swift; sourceTree = "<group>"; };
+		0855F1BA2022C3CC00FC3F33 /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		085A0252202DAFE00068F339 /* SlabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlabCollectionViewCell.swift; sourceTree = "<group>"; };
+		085A0254202DC01B0068F339 /* ChangeVehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeVehicleViewController.swift; sourceTree = "<group>"; };
+		085A0256202F36E70068F339 /* UserBookingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBookingTableViewCell.swift; sourceTree = "<group>"; };
+		087F8093200C7AFC00498BE7 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		087F8096200C7B6F00498BE7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		087F8098200C7C3800498BE7 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		087F80BC200E3CDB00498BE7 /* OnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		087F80BE200E3D2900498BE7 /* OnboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		087F80C3200F16B200498BE7 /* Dashbaord.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashbaord.storyboard; sourceTree = "<group>"; };
+		087F80C8200F1FD400498BE7 /* Tutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
+		087F80CA200F215600498BE7 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		087F80CD200F32E600498BE7 /* AnnotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationViewController.swift; sourceTree = "<group>"; };
+		088515342008D04400CFC5DC /* CitizenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitizenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		088515372008D04400CFC5DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		088515392008D04400CFC5DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0885153C2008D04400CFC5DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0885153E2008D04400CFC5DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		088515412008D04400CFC5DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		088515432008D04400CFC5DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088515492008D0AF00CFC5DC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		089CE41A47F1C5D96A44C43D /* Pods-CitizenApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitizenApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CitizenApp/Pods-CitizenApp.release.xcconfig"; sourceTree = "<group>"; };
+		08A8690C20138C10005BF051 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		08A8690F20139307005BF051 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		76800709347E0C8E72AF04C3 /* Pods-CitizenApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitizenApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CitizenApp/Pods-CitizenApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C13200F972DF1CFADF32A015 /* Pods_CitizenApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitizenApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088515312008D04400CFC5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A2E6BDB3584E1D1A790CA4 /* Pods_CitizenApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08027BAF201582590099A978 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				08027BB0201582640099A978 /* MoreViewController.swift */,
+				08027BB2201582720099A978 /* MyBookingsViewController.swift */,
+				08027BB42015827C0099A978 /* ProfileViewController.swift */,
+				08027BB6201582890099A978 /* EditProfileViewController.swift */,
+				083C3C4E20218E2300AAEB02 /* VehicleTableViewCell.swift */,
+				0855F1BA2022C3CC00FC3F33 /* AddEditViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		08027BB82015A2510099A978 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				08027BB92015A2690099A978 /* LotCollectionViewCell.swift */,
+				08027BBB201627010099A978 /* LotTableViewCell.swift */,
+				085A0252202DAFE00068F339 /* SlabCollectionViewCell.swift */,
+				085A0256202F36E70068F339 /* UserBookingTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		087F8092200C7AE700498BE7 /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				087F8093200C7AFC00498BE7 /* Login.storyboard */,
+				087F8098200C7C3800498BE7 /* UpdateProfileViewController.swift */,
+				087F80BC200E3CDB00498BE7 /* OnboardViewController.swift */,
+				087F80BE200E3D2900498BE7 /* OnboardCollectionViewCell.swift */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
+		087F8095200C7B5C00498BE7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				087F8096200C7B6F00498BE7 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		087F809E200C7FEC00498BE7 /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libraries;
+			sourceTree = "<group>";
+		};
+		087F80C2200F16A100498BE7 /* dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				087F80C3200F16B200498BE7 /* Dashbaord.storyboard */,
+				08027BA72015820A0099A978 /* DashboardViewController.swift */,
+				08027BA9201582180099A978 /* MapViewController.swift */,
+				08027BAB201582210099A978 /* ListingViewController.swift */,
+				08027BAD201582320099A978 /* BookViewController.swift */,
+				08027BC5201EB1140099A978 /* ConfirmationViewController.swift */,
+				085A0254202DC01B0068F339 /* ChangeVehicleViewController.swift */,
+				08027BB82015A2510099A978 /* cells */,
+				08027BAF201582590099A978 /* More */,
+			);
+			path = dashboard;
+			sourceTree = "<group>";
+		};
+		087F80C7200F1FAC00498BE7 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				087F80C8200F1FD400498BE7 /* Tutorial.storyboard */,
+				087F80CA200F215600498BE7 /* TutorialViewController.swift */,
+				087F80CD200F32E600498BE7 /* AnnotationViewController.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		0885152B2008D04400CFC5DC = {
+			isa = PBXGroup;
+			children = (
+				088515492008D0AF00CFC5DC /* Podfile */,
+				088515362008D04400CFC5DC /* CitizenApp */,
+				088515352008D04400CFC5DC /* Products */,
+				41EDECEAEEF508E660266563 /* Pods */,
+				28210BCEDA2A0A30E5B14A71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		088515352008D04400CFC5DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				088515342008D04400CFC5DC /* CitizenApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		088515362008D04400CFC5DC /* CitizenApp */ = {
+			isa = PBXGroup;
+			children = (
+				087F80C7200F1FAC00498BE7 /* Tutorial */,
+				087F80C2200F16A100498BE7 /* dashboard */,
+				087F809E200C7FEC00498BE7 /* libraries */,
+				087F8095200C7B5C00498BE7 /* Base */,
+				087F8092200C7AE700498BE7 /* onboarding */,
+				088515372008D04400CFC5DC /* AppDelegate.swift */,
+				088515392008D04400CFC5DC /* ViewController.swift */,
+				0885153B2008D04400CFC5DC /* Main.storyboard */,
+				0885153E2008D04400CFC5DC /* Assets.xcassets */,
+				088515402008D04400CFC5DC /* LaunchScreen.storyboard */,
+				088515432008D04400CFC5DC /* Info.plist */,
+				08A8690C20138C10005BF051 /* DatabaseHelper.swift */,
+				08A8690E201392F6005BF051 /* models */,
+			);
+			path = CitizenApp;
+			sourceTree = "<group>";
+		};
+		08A8690E201392F6005BF051 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				08A8690F20139307005BF051 /* UserModel.swift */,
+				08027BBD20162C810099A978 /* ParkingLotModel.swift */,
+				08027BC0201DA96B0099A978 /* VehicleModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		28210BCEDA2A0A30E5B14A71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C13200F972DF1CFADF32A015 /* Pods_CitizenApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41EDECEAEEF508E660266563 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76800709347E0C8E72AF04C3 /* Pods-CitizenApp.debug.xcconfig */,
+				089CE41A47F1C5D96A44C43D /* Pods-CitizenApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		088515332008D04400CFC5DC /* CitizenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088515462008D04400CFC5DC /* Build configuration list for PBXNativeTarget "CitizenApp" */;
+			buildPhases = (
+				A74889EEAC4F741E58F00EC6 /* [CP] Check Pods Manifest.lock */,
+				088515302008D04400CFC5DC /* Sources */,
+				088515312008D04400CFC5DC /* Frameworks */,
+				088515322008D04400CFC5DC /* Resources */,
+				54AAA34AC3FA864B39866142 /* [CP] Embed Pods Frameworks */,
+				DBB2C244862CEA57236CC25F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitizenApp;
+			productName = CitizenApp;
+			productReference = 088515342008D04400CFC5DC /* CitizenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0885152C2008D04400CFC5DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sujith Chandran";
+				TargetAttributes = {
+					088515332008D04400CFC5DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0885152F2008D04400CFC5DC /* Build configuration list for PBXProject "CitizenApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0885152B2008D04400CFC5DC;
+			productRefGroup = 088515352008D04400CFC5DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				088515332008D04400CFC5DC /* CitizenApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		088515322008D04400CFC5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088515422008D04400CFC5DC /* LaunchScreen.storyboard in Resources */,
+				087F80C4200F16B200498BE7 /* Dashbaord.storyboard in Resources */,
+				0885153F2008D04400CFC5DC /* Assets.xcassets in Resources */,
+				0885154A2008D0B000CFC5DC /* Podfile in Resources */,
+				087F8094200C7AFC00498BE7 /* Login.storyboard in Resources */,
+				0885153D2008D04400CFC5DC /* Main.storyboard in Resources */,
+				087F80C9200F1FD400498BE7 /* Tutorial.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54AAA34AC3FA864B39866142 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CitizenApp/Pods-CitizenApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/Gecco/Gecco.framework",
+				"${BUILT_PRODUCTS_DIR}/GeoFire/GeoFire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JDStatusBarNotification/JDStatusBarNotification.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ZXingObjC/ZXingObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gecco.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GeoFire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JDStatusBarNotification.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZXingObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CitizenApp/Pods-CitizenApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A74889EEAC4F741E58F00EC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CitizenApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB2C244862CEA57236CC25F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CitizenApp/Pods-CitizenApp-resources.sh",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CitizenApp/Pods-CitizenApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088515302008D04400CFC5DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083C3C4F20218E2300AAEB02 /* VehicleTableViewCell.swift in Sources */,
+				08027BB1201582640099A978 /* MoreViewController.swift in Sources */,
+				087F80BD200E3CDB00498BE7 /* OnboardViewController.swift in Sources */,
+				08A8690D20138C10005BF051 /* DatabaseHelper.swift in Sources */,
+				085A0257202F36E70068F339 /* UserBookingTableViewCell.swift in Sources */,
+				087F80CB200F215600498BE7 /* TutorialViewController.swift in Sources */,
+				08027BBA2015A2690099A978 /* LotCollectionViewCell.swift in Sources */,
+				08027BAE201582320099A978 /* BookViewController.swift in Sources */,
+				0885153A2008D04400CFC5DC /* ViewController.swift in Sources */,
+				08027BC6201EB1140099A978 /* ConfirmationViewController.swift in Sources */,
+				087F80CE200F32E600498BE7 /* AnnotationViewController.swift in Sources */,
+				08027BB52015827C0099A978 /* ProfileViewController.swift in Sources */,
+				0855F1BB2022C3CC00FC3F33 /* AddEditViewController.swift in Sources */,
+				08027BBE20162C810099A978 /* ParkingLotModel.swift in Sources */,
+				08027BB7201582890099A978 /* EditProfileViewController.swift in Sources */,
+				087F8099200C7C3800498BE7 /* UpdateProfileViewController.swift in Sources */,
+				08027BBC201627010099A978 /* LotTableViewCell.swift in Sources */,
+				08027BAC201582210099A978 /* ListingViewController.swift in Sources */,
+				088515382008D04400CFC5DC /* AppDelegate.swift in Sources */,
+				085A0255202DC01B0068F339 /* ChangeVehicleViewController.swift in Sources */,
+				085A0253202DAFE00068F339 /* SlabCollectionViewCell.swift in Sources */,
+				08027BB3201582720099A978 /* MyBookingsViewController.swift in Sources */,
+				08027BC1201DA96B0099A978 /* VehicleModel.swift in Sources */,
+				08027BAA201582180099A978 /* MapViewController.swift in Sources */,
+				087F80BF200E3D2900498BE7 /* OnboardCollectionViewCell.swift in Sources */,
+				08027BA82015820A0099A978 /* DashboardViewController.swift in Sources */,
+				08A8691020139307005BF051 /* UserModel.swift in Sources */,
+				087F8097200C7B6F00498BE7 /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0885153B2008D04400CFC5DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0885153C2008D04400CFC5DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		088515402008D04400CFC5DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088515412008D04400CFC5DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		088515442008D04400CFC5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		088515452008D04400CFC5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		088515472008D04400CFC5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76800709347E0C8E72AF04C3 /* Pods-CitizenApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63GX43Y9HV;
+				INFOPLIST_FILE = CitizenApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.SmartParking.CitizenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		088515482008D04400CFC5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 089CE41A47F1C5D96A44C43D /* Pods-CitizenApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63GX43Y9HV;
+				INFOPLIST_FILE = CitizenApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.SmartParking.CitizenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0885152F2008D04400CFC5DC /* Build configuration list for PBXProject "CitizenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088515442008D04400CFC5DC /* Debug */,
+				088515452008D04400CFC5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088515462008D04400CFC5DC /* Build configuration list for PBXNativeTarget "CitizenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088515472008D04400CFC5DC /* Debug */,
+				088515482008D04400CFC5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0885152C2008D04400CFC5DC /* Project object */;
+}
